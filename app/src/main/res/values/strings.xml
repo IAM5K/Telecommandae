@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Version1.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="update">Update PIN</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="info">R: Ring Mode\nC: Contact Retrieval \nL: Device Location\nP: Protect Device\nS: Call Me Back\nH: Help \n\nFormat: xxxxxCommand-Code </string>
+</resources>

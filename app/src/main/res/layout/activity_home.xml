@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="173dp"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="525dp"
+        app:srcCompat="@drawable/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="110dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/aboutHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="22dp"
+                android:text="About : "
+                android:textAlignment="center"
+                android:textColor="#e46402"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="17dp"
+                android:text="Télécommande is a service for remote access through SMS and enables its user to help in critical situations in case of physical inaccessibility of the device. "
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/howtohead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="22dp"
+                android:text="How to : "
+                android:textAlignment="center"
+                android:textColor="#e46402"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/howto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="17dp"
+                android:text="@string/info" />
+
+            <TextView
+                android:id="@+id/devHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="22dp"
+                android:text="Developers : "
+                android:textAlignment="center"
+                android:textColor="#e46402"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/dev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="17dp"
+                android:text="Alkesh Gupta\nShreyansh Saxena\nSandeep Kumar\nAyush Agarwal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/guideHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="22dp"
+                android:text="Direction By : "
+                android:textAlignment="center"
+                android:textColor="#e46402"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/guide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="17dp"
+                android:text="Dr. Shishir Kr. Shandilya"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+</RelativeLayout>

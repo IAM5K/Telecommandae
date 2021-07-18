@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:background="#123456"
+    android:gravity="center_horizontal">
+
+
+    <include layout="@layout/background" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/xyz"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/transparent"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="400dp">
+
+        <TextView
+            android:id="@+id/textview_register"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:paddingLeft="18dp"
+            android:text="@string/register"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_update"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:paddingLeft="14dp"
+            android:text="@string/update"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/enablebtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="124dp"
+        android:text="Enable Screen Lock"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"/>
+
+
+    <Button
+        android:id="@+id/disablebtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="117dp"
+        android:text="Disable Screen Lock"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+
+        />
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="11dp"
+        app:srcCompat="@drawable/i" />
+    <TextView
+        android:id="@+id/textview_frnd"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/button"
+        android:text="Friend"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="18dp"/>
+
+
+</RelativeLayout>
